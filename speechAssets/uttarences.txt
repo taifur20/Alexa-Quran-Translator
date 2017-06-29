@@ -1,0 +1,5 @@
+GetAyahIntent ayah number {ayah}
+GetAyahIntent ayah {ayah}
+
+GetSurahIntent surah number {surah}
+GetSurahIntent surah {surah}

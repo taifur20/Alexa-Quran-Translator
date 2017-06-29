@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "ayah",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "GetAyahIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "surah",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "GetSurahIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
